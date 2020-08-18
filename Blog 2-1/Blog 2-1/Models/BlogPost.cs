@@ -13,7 +13,7 @@ namespace Blog_2_1.Models
         public int Id { get; set; }
         [Display(Name = "Post Title")]
         public string BlogTitle { get; set; }
-        [Display(Name = "Write Blog Post Below")]
+        [Display(Name = "Write Blog post below")]
         public string Content { get; set; }
         [Display(Name = "Date")]
         public DateTime BlogDate { get; set; }
